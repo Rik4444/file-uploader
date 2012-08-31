@@ -33,7 +33,6 @@
     position: static;
     overflow: hidden;
 }
-
 .qq-uploader input
 {
     cursor: pointer;
@@ -129,7 +128,6 @@
     overflow: hidden;
     margin-right: 12px;
 }
-
 .qq-uploader .qq-upload-file {
 }
 .qq-uploader .qq-progress-bar-container {
