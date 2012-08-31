@@ -44,30 +44,29 @@
 
 .qq-uploader .qq-upload-button 
 {   
-    cursor: hand; 
-	display: block; /*or inline-block*/
-	width: 105px;
-	padding: 7px 0px;
-	text-align: center;
-	background: #880000;
-	border-bottom: 1px solid #DDD;
-	color: #FFF;
+    display: block; /*or inline-block*/
+    width: 105px;
+    padding: 7px 0px;
+    text-align: center;
+    background: #880000;
+    border-bottom: 1px solid #DDD;
+    color: #FFF;
 }
 .qq-uploader .qq-upload-button-hover {
-	background: #CC0000;
+    background: #CC0000;
 }
 .qq-uploader .qq-upload-button-focus {
-	outline: 1px dotted #000000;
+    outline: 1px dotted #000000;
 }
 .qq-uploader .qq-upload-button-icon 
 {
     padding: 0px;
     text-align: left;
-	background: none;
-	outline: none;
-	border: none;
-	width: 15px;
-	height: 15px;
+    background: none;
+    outline: none;
+    border: none;
+    width: 15px;
+    height: 15px;
 }
 
 /* Drop area */
@@ -76,12 +75,12 @@
 .qq-uploader .qq-upload-extra-drop-area
 {  
     position: absolute;
-	width: 105px;
-	min-height: 30px;
-	overflow: hidden;
-	padding: 0px;
-	background: #FF9797;
-	text-align: center;
+    width: 105px;
+    min-height: 30px;
+    overflow: hidden;
+    padding: 0px;
+    background: #FF9797;
+    text-align: center;
     z-index: 1000;
 }
 .qq-uploader .qq-upload-drop-area span 
@@ -89,33 +88,33 @@
     font-size: 16px;
 }
 .qq-uploader .qq-upload-extra-drop-area {
-	position: relative;
-	margin-top: 50px;
-	font-size: 16px;
-	padding-top: 30px;
-	height: 20px;
-	min-height: 40px;
+    position: relative;
+    margin-top: 50px;
+    font-size: 16px;
+    padding-top: 30px;
+    height: 20px;
+    min-height: 40px;
 }
 .qq-uploader .qq-upload-drop-area-active 
 {
-	background: #FF7171;
+    background: #FF7171;
 }
 
 /* Upload-list */
 
 .qq-uploader .qq-upload-list 
 {
-	list-style: none;
-	position: absolute;	
+    list-style: none;
+    position: absolute;	
     z-index: 999;
 }
 .qq-uploader .qq-upload-list li 
 {   
-	padding: 9px;
-	line-height: 15px;
-	font-size: 16px;
-	color: #000;
-	background-color: #FFF0BD;
+    padding: 9px;
+    line-height: 15px;
+    font-size: 16px;
+    color: #000;
+    background-color: #FFF0BD;
 }
 .qq-uploader .qq-progress-bar-container,
 .qq-uploader .qq-upload-file,
@@ -128,7 +127,7 @@
     display: block;
     float: left;
     overflow: hidden;
-	margin-right: 12px;
+    margin-right: 12px;
 }
 
 .qq-uploader .qq-upload-file {
@@ -148,12 +147,12 @@
     background-color: Green;
 }
 .qq-uploader .qq-upload-spinner {
-	display: inline-block;
-	background: url("loading.gif");
-	width: 15px;
-	height: 15px;
-	vertical-align: text-bottom;
-	margin-bottom: 2px;
+    display: inline-block;
+    background: url("loading.gif");
+    width: 15px;
+    height: 15px;
+    vertical-align: text-bottom;
+    margin-bottom: 2px;
 }
 .qq-uploader .qq-upload-finished {
     display: none;
@@ -163,11 +162,11 @@
 }
 .qq-uploader .qq-upload-size,
 .qq-uploader .qq-upload-cancel {
-	font-size: 12px;
-	font-weight: normal;
+    font-size: 12px;
+    font-weight: normal;
 }
 .qq-uploader .qq-upload-failed-text {
-	display: none;
+    display: none;
 }
 .qq-uploader .qq-upload-failed-icon {
     display: none;
@@ -176,15 +175,15 @@
     vertical-align: text-bottom;
 }
 .qq-uploader .qq-upload-fail .qq-upload-failed-text {
-	display: inline;
+    display: inline;
 }
 .qq-uploader .qq-upload-list .qq-upload-success {
-	background-color: #5DA30C;
-	color: #FFFFFF;
+    background-color: #5DA30C;
+    color: #FFFFFF;
 }
 .qq-uploader .qq-upload-list .qq-upload-fail {
-	background-color: #D60000;
-	color: #FFFFFF;
+    background-color: #D60000;
+    color: #FFFFFF;
 }
 
 /* There is a bug in IE7 that causes problems when using z-index. Because of this the list of uploads may be hidden behind other elements. */
@@ -194,26 +193,5 @@
 .file-uploader-parent
 {
     position: static;
-	z-index: 1;
-}
-
-/* */
-
-.qq-uploader .qq-upload-list
-{
-    /*
-    left: 5px;
-    bottom: 0px;
-    */
-}
-/*
-.qq-uploader .qq-upload-list li
-{
-    background: #fff;
-    margin-top: 5px;
-    border: 1px solid black;
-}
-*/
-.qq-uploader .qq-upload-spinner {
-	background: url("/Images/loading.gif");
+    z-index: 1;
 }
